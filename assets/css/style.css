@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "Gilda Display";
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Maven Pro";
+    src: url("../fonts/MavenPro-VariableFont_wght.ttf");
+}
+
+header{
+    background-color: #2C2C2C; 
+}
+
+header div h1{
+    font-family: "Maven Pro";
+    color: white;
+    width: 75px;
+    margin-left: 20px;
+    padding-bottom: 150px;
+}
+
+header article{
+    background-image: linear-gradient(to right,#194894 ,#8507e1,#3dc8d5 );
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+header article h1{
+    font-family: "Gilda Display";
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header article p{
+    font-family: "Maven Pro";
+    text-align: center;
+    color: white;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+header nav{
+    line-height: 30px;
+    text-align: right;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+header nav a{
+    display: block;
+    font-family: "Maven Pro";
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+
+
+main{
+    background-image: url("../img/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-left: 65px;
+}
+
+main h1{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-top: 100px;
+}
+
+main article{
+    width: 420px;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+
+main section{
+padding-left: 5px;
+padding-top: 20px;
+padding-bottom: 150px;
+}
+
+
+
+footer div img{
+    max-width: 60%;
+    max-height: 60%;
+    padding-left: 235px;
+    padding-bottom: 50px;
+}
+
+footer article h1{
+    font-size: 30px;
+    padding-left: 250px;
+}
+
+footer article p{
+    font-family: "Maven Pro";
+    padding-left: 250px;
+    padding-bottom: 200px;
+}
